@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-EXPOSE 8082
+EXPOSE 8000
 
 ENV APP_HOME /usr/src/app
 
