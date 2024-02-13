@@ -8,4 +8,4 @@ COPY target/petclinic.war $APP_HOME/app.war
 
 WORKDIR $APP_HOME
 
-ENTRYPOINT exec java -jar app.war 
+CMD  java -jar app.war 
