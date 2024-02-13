@@ -4,8 +4,8 @@ EXPOSE 8050
 
 ENV APP_HOME /usr/src/app
 
-COPY target/petclinic.war $APP_HOME/app.war
+COPY target/petclinic.jar $APP_HOME/app.jar
 
 WORKDIR $APP_HOME
 
-CMD  java -jar app.war 
+CMD  java -jar app.jar 
